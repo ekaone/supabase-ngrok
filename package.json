@@ -1,0 +1,36 @@
+{
+  "name": "supabase-ngrok",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekaone/supabase-ngrok.git"
+  },
+  "keywords": [
+    "supabase",
+    "ngrok",
+    "eka",
+    "prasetia",
+    "dannyeka",
+    "tunnel"
+  ],
+  "bugs": {
+    "url": "https://github.com/ekaone/supabase-ngrok/issues"
+  },
+  "homepage": "https://ekaprasetia.com/",
+  "author": "Eka Prasetia",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/realtime-js": "^1.0.6",
+    "@supabase/supabase-js": "^1.7.7",
+    "dotenv": "^8.2.0",
+    "ngrok": "^4.0.0",
+    "node-fetch": "^2.6.1",
+    "socket.io": "^4.0.1"
+  }
+}
